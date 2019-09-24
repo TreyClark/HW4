@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#33F6FF</color>
+    <color name="colorPrimaryDark">#3390FF</color>
+    <color name="colorAccent">#FF3390</color>
+    <color name="toolbarIconColor">#FF33F6</color>
+    <color name="loginPageBackgroundColor">#FFFFFF</color>
+    <color name="productGridBackgroundColor">#FFFFFF</color>
+    <color name="textColorPrimary">#FF33F6</color>
+    <color name="colorOnPrimary">#442C2E</color>
+    <color name="textInputColorPrimary">#E0E0E0</color>
+    <color name="textInputOutlineColor">#FF33F6</color>
+    <color name="toolbarBackgroundColor">#3390FF</color>
+</resources>

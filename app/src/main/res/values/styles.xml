@@ -1,0 +1,50 @@
+<resources>
+    <!-- Base application theme. -->
+    <!-- TODO 17: Use "convergence" font for Toolbar title, Button and TextButton. Remember using bold style -->
+    <!-- TODO 18: Define custom style for the product name label in catalog's cards. -->
+    <!-- TODO 19: Create and apply a new color theme to the application -->
+    <style name="Theme.Shrine" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:font">@font/dosis</item>
+    </style>
+
+    <style name="Widget.Shrine.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/toolbarBackgroundColor</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:theme">@style/Theme.Shrine</item>
+        <item name="colorOnBackground">@color/textColorPrimary</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:tint">@color/textColorPrimary</item>
+        <item name="android:textSize">@dimen/toolbarTextSize</item>
+    </style>
+
+    <style name="Widget.Shrine.TextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColor">@color/textInputColorPrimary</item>
+        <item name="android:outlineAmbientShadowColor">@color/textInputOutlineColor</item>
+
+    </style>
+
+    <style name="Widget.Shrine.Button" parent="Widget.MaterialComponents.Button">
+        <item name="colorOnPrimary">@color/textColorPrimary</item>
+       <!--<item name="android:fontFamily">@font/convergence"</item>-->
+
+    </style>
+
+    <style name="Widget.Shrine.Button.Alternative" parent="Widget.MaterialComponents.Button">
+        <item name="colorPrimary">@color/textColorPrimary</item>
+        <item name="android:fontFamily">@font/convergence</item>
+
+    </style>
+
+    <style name="Theme.Shrine.Title" parent = "Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/convergence</item>
+        <item name="android:textColorLink">@color/textColorPrimary</item>-
+
+    </style>
+
+
+</resources>
